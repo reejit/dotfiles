@@ -4,10 +4,10 @@ $os\
 $username\
 [](bg:#DA627D fg:#9A348E)\
 $directory\
-[](fg:#DA627D bg:#FCA17D)\
+[](fg:#DA627D bg:#D18700)\
 $git_branch\
 $git_status\
-[](fg:#FCA17D bg:#86BBD8)\
+[](fg:#D18700 bg:#86BBD8)\
 $c\
 $elixir\
 $elm\
@@ -25,7 +25,7 @@ $scala\
 $docker_context\
 [](fg:#06969A bg:#33658A)\
 $cmd_duration\
-[ ](fg:#33658A)\
+[ ](fg:#33658A)\
 $character\
 """
 
@@ -52,8 +52,8 @@ disabled = false # Disabled by default
 Arch = " "
 
 [character]
-success_symbol = '[➜](bold green) '
-error_symbol = '[✗](bold red) '
+success_symbol = '[✔️](bold green) '
+error_symbol = '[❌](bold red) '
 
 [directory]
 style = "bg:#DA627D"
@@ -96,11 +96,11 @@ format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
+style = "bg:#D18700"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#FCA17D"
+style = "bg:#D18700"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
