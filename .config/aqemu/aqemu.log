@@ -1,0 +1,385 @@
+Type: Error Num: 5
+Date: 2023.05.27 15:15:21 574
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get QEMU network card ID string!
+
+Type: Warning Num: 6
+Date: 2023.05.27 15:15:21 574
+Sender: Available_Devices System_Info::Get_Emulator_Info( const QString &path, bool *ok,VM::Emulator_Version version, const QString &internalName )
+Message: Cannot get net cards info from emulator "/usr/bin/qemu-system-x86_64". Use default list
+
+Type: Warning Num: 12
+Date: 2023.05.27 15:15:24 736
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-arm" element!
+
+Type: Warning Num: 13
+Date: 2023.05.27 15:15:24 736
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-cris" element!
+
+Type: Warning Num: 14
+Date: 2023.05.27 15:15:24 736
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-m68k" element!
+
+Type: Warning Num: 15
+Date: 2023.05.27 15:15:24 736
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-microblaze" element!
+
+Type: Warning Num: 16
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips" element!
+
+Type: Warning Num: 17
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64" element!
+
+Type: Warning Num: 18
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64el" element!
+
+Type: Warning Num: 19
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mipsel" element!
+
+Type: Warning Num: 20
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc" element!
+
+Type: Warning Num: 21
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc64" element!
+
+Type: Warning Num: 22
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 23
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4" element!
+
+Type: Warning Num: 24
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4eb" element!
+
+Type: Warning Num: 25
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc" element!
+
+Type: Warning Num: 26
+Date: 2023.05.27 15:15:24 737
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc64" element!
+
+Type: Warning Num: 29
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-arm" element!
+
+Type: Warning Num: 30
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-cris" element!
+
+Type: Warning Num: 31
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-m68k" element!
+
+Type: Warning Num: 32
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-microblaze" element!
+
+Type: Warning Num: 33
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips" element!
+
+Type: Warning Num: 34
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64" element!
+
+Type: Warning Num: 35
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64el" element!
+
+Type: Warning Num: 36
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mipsel" element!
+
+Type: Warning Num: 37
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc" element!
+
+Type: Warning Num: 38
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc64" element!
+
+Type: Warning Num: 39
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 40
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4" element!
+
+Type: Warning Num: 41
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4eb" element!
+
+Type: Warning Num: 42
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc" element!
+
+Type: Warning Num: 43
+Date: 2023.05.27 15:15:24 748
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc64" element!
+
+Type: Warning Num: 2
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-arm" element!
+
+Type: Warning Num: 3
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-cris" element!
+
+Type: Warning Num: 4
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-m68k" element!
+
+Type: Warning Num: 5
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-microblaze" element!
+
+Type: Warning Num: 6
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips" element!
+
+Type: Warning Num: 7
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64" element!
+
+Type: Warning Num: 8
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64el" element!
+
+Type: Warning Num: 9
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mipsel" element!
+
+Type: Warning Num: 10
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc" element!
+
+Type: Warning Num: 11
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc64" element!
+
+Type: Warning Num: 12
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 13
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4" element!
+
+Type: Warning Num: 14
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4eb" element!
+
+Type: Warning Num: 15
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc" element!
+
+Type: Warning Num: 16
+Date: 2023.05.27 15:15:30 882
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc64" element!
+
+Type: Warning Num: 2
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-arm" element!
+
+Type: Warning Num: 3
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-cris" element!
+
+Type: Warning Num: 4
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-m68k" element!
+
+Type: Warning Num: 5
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-microblaze" element!
+
+Type: Warning Num: 6
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips" element!
+
+Type: Warning Num: 7
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64" element!
+
+Type: Warning Num: 8
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64el" element!
+
+Type: Warning Num: 9
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mipsel" element!
+
+Type: Warning Num: 10
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc" element!
+
+Type: Warning Num: 11
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc64" element!
+
+Type: Warning Num: 12
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 13
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4" element!
+
+Type: Warning Num: 14
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4eb" element!
+
+Type: Warning Num: 15
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc" element!
+
+Type: Warning Num: 16
+Date: 2023.05.27 15:16:02 986
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc64" element!
+
+Type: Warning Num: 2
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-arm" element!
+
+Type: Warning Num: 3
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-cris" element!
+
+Type: Warning Num: 4
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-m68k" element!
+
+Type: Warning Num: 5
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-microblaze" element!
+
+Type: Warning Num: 6
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips" element!
+
+Type: Warning Num: 7
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64" element!
+
+Type: Warning Num: 8
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mips64el" element!
+
+Type: Warning Num: 9
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-mipsel" element!
+
+Type: Warning Num: 10
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc" element!
+
+Type: Warning Num: 11
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppc64" element!
+
+Type: Warning Num: 12
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-ppcemb" element!
+
+Type: Warning Num: 13
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4" element!
+
+Type: Warning Num: 14
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sh4eb" element!
+
+Type: Warning Num: 15
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc" element!
+
+Type: Warning Num: 16
+Date: 2023.05.27 15:16:09 906
+Sender: bool Emulator::Load( const QString &path )
+Message: No "qemu-system-sparc64" element!
+

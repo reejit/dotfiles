@@ -1,0 +1,684 @@
+<AQEMU_Emulator version="0.8">
+    <Emulator>
+        <Name>QEMU 2.0</Name>
+        <Default>yes</Default>
+        <Path>/usr/bin/</Path>
+        <Check_Version>no</Check_Version>
+        <Check_Available_Options>no</Check_Available_Options>
+        <Check_Available_Options>no</Check_Available_Options>
+        <Force_Version>no</Force_Version>
+        <Version>QEMU 2.0</Version>
+        <Executable_Paths>
+            <qemu-system-arm></qemu-system-arm>
+            <qemu-system-cris></qemu-system-cris>
+            <qemu-system-m68k></qemu-system-m68k>
+            <qemu-system-microblaze></qemu-system-microblaze>
+            <qemu-system-mips></qemu-system-mips>
+            <qemu-system-mips64></qemu-system-mips64>
+            <qemu-system-mips64el></qemu-system-mips64el>
+            <qemu-system-mipsel></qemu-system-mipsel>
+            <qemu-system-ppc></qemu-system-ppc>
+            <qemu-system-ppc64></qemu-system-ppc64>
+            <qemu-system-ppcemb></qemu-system-ppcemb>
+            <qemu-system-sh4></qemu-system-sh4>
+            <qemu-system-sh4eb></qemu-system-sh4eb>
+            <qemu-system-sparc></qemu-system-sparc>
+            <qemu-system-sparc64></qemu-system-sparc64>
+            <qemu-system-x86_64>/usr/bin/qemu-system-x86_64</qemu-system-x86_64>
+        </Executable_Paths>
+        <qemu-system-x86_64>
+            <System_Caption>IBM PC 64Bit</System_Caption>
+            <System_QEMU_Name>qemu-system-x86_64</System_QEMU_Name>
+            <CPU_List>
+                <Caption0>Default</Caption0>
+                <Name0></Name0>
+                <Caption1>Intel 486</Caption1>
+                <Name1>486</Name1>
+                <Caption2>486-v1</Caption2>
+                <Name2>486-v1</Name2>
+                <Caption3>Broadwell</Caption3>
+                <Name3>Broadwell</Name3>
+                <Caption4>Broadwell-IBRS</Caption4>
+                <Name4>Broadwell-IBRS</Name4>
+                <Caption5>Broadwell-noTSX</Caption5>
+                <Name5>Broadwell-noTSX</Name5>
+                <Caption6>Broadwell-noTSX-IBRS</Caption6>
+                <Name6>Broadwell-noTSX-IBRS</Name6>
+                <Caption7>Broadwell-v1</Caption7>
+                <Name7>Broadwell-v1</Name7>
+                <Caption8>Broadwell-v2</Caption8>
+                <Name8>Broadwell-v2</Name8>
+                <Caption9>Broadwell-v3</Caption9>
+                <Name9>Broadwell-v3</Name9>
+                <Caption10>Broadwell-v4</Caption10>
+                <Name10>Broadwell-v4</Name10>
+                <Caption11>Cascadelake-Server</Caption11>
+                <Name11>Cascadelake-Server</Name11>
+                <Caption12>Cascadelake-Server-noTSX</Caption12>
+                <Name12>Cascadelake-Server-noTSX</Name12>
+                <Caption13>Cascadelake-Server-v1</Caption13>
+                <Name13>Cascadelake-Server-v1</Name13>
+                <Caption14>Cascadelake-Server-v2</Caption14>
+                <Name14>Cascadelake-Server-v2</Name14>
+                <Caption15>Cascadelake-Server-v3</Caption15>
+                <Name15>Cascadelake-Server-v3</Name15>
+                <Caption16>Cascadelake-Server-v4</Caption16>
+                <Name16>Cascadelake-Server-v4</Name16>
+                <Caption17>Cascadelake-Server-v5</Caption17>
+                <Name17>Cascadelake-Server-v5</Name17>
+                <Caption18>Conroe</Caption18>
+                <Name18>Conroe</Name18>
+                <Caption19>Conroe-v1</Caption19>
+                <Name19>Conroe-v1</Name19>
+                <Caption20>Cooperlake</Caption20>
+                <Name20>Cooperlake</Name20>
+                <Caption21>Cooperlake-v1</Caption21>
+                <Name21>Cooperlake-v1</Name21>
+                <Caption22>Cooperlake-v2</Caption22>
+                <Name22>Cooperlake-v2</Name22>
+                <Caption23>Denverton</Caption23>
+                <Name23>Denverton</Name23>
+                <Caption24>Denverton-v1</Caption24>
+                <Name24>Denverton-v1</Name24>
+                <Caption25>Denverton-v2</Caption25>
+                <Name25>Denverton-v2</Name25>
+                <Caption26>Denverton-v3</Caption26>
+                <Name26>Denverton-v3</Name26>
+                <Caption27>Dhyana</Caption27>
+                <Name27>Dhyana</Name27>
+                <Caption28>Dhyana-v1</Caption28>
+                <Name28>Dhyana-v1</Name28>
+                <Caption29>Dhyana-v2</Caption29>
+                <Name29>Dhyana-v2</Name29>
+                <Caption30>EPYC</Caption30>
+                <Name30>EPYC</Name30>
+                <Caption31>EPYC-IBPB</Caption31>
+                <Name31>EPYC-IBPB</Name31>
+                <Caption32>EPYC-Milan</Caption32>
+                <Name32>EPYC-Milan</Name32>
+                <Caption33>EPYC-Milan-v1</Caption33>
+                <Name33>EPYC-Milan-v1</Name33>
+                <Caption34>EPYC-Rome</Caption34>
+                <Name34>EPYC-Rome</Name34>
+                <Caption35>EPYC-Rome-v1</Caption35>
+                <Name35>EPYC-Rome-v1</Name35>
+                <Caption36>EPYC-Rome-v2</Caption36>
+                <Name36>EPYC-Rome-v2</Name36>
+                <Caption37>EPYC-v1</Caption37>
+                <Name37>EPYC-v1</Name37>
+                <Caption38>EPYC-v2</Caption38>
+                <Name38>EPYC-v2</Name38>
+                <Caption39>EPYC-v3</Caption39>
+                <Name39>EPYC-v3</Name39>
+                <Caption40>Haswell</Caption40>
+                <Name40>Haswell</Name40>
+                <Caption41>Haswell-IBRS</Caption41>
+                <Name41>Haswell-IBRS</Name41>
+                <Caption42>Haswell-noTSX</Caption42>
+                <Name42>Haswell-noTSX</Name42>
+                <Caption43>Haswell-noTSX-IBRS</Caption43>
+                <Name43>Haswell-noTSX-IBRS</Name43>
+                <Caption44>Haswell-v1</Caption44>
+                <Name44>Haswell-v1</Name44>
+                <Caption45>Haswell-v2</Caption45>
+                <Name45>Haswell-v2</Name45>
+                <Caption46>Haswell-v3</Caption46>
+                <Name46>Haswell-v3</Name46>
+                <Caption47>Haswell-v4</Caption47>
+                <Name47>Haswell-v4</Name47>
+                <Caption48>Icelake-Server</Caption48>
+                <Name48>Icelake-Server</Name48>
+                <Caption49>Icelake-Server-noTSX</Caption49>
+                <Name49>Icelake-Server-noTSX</Name49>
+                <Caption50>Icelake-Server-v1</Caption50>
+                <Name50>Icelake-Server-v1</Name50>
+                <Caption51>Icelake-Server-v2</Caption51>
+                <Name51>Icelake-Server-v2</Name51>
+                <Caption52>Icelake-Server-v3</Caption52>
+                <Name52>Icelake-Server-v3</Name52>
+                <Caption53>Icelake-Server-v4</Caption53>
+                <Name53>Icelake-Server-v4</Name53>
+                <Caption54>Icelake-Server-v5</Caption54>
+                <Name54>Icelake-Server-v5</Name54>
+                <Caption55>Icelake-Server-v6</Caption55>
+                <Name55>Icelake-Server-v6</Name55>
+                <Caption56>IvyBridge</Caption56>
+                <Name56>IvyBridge</Name56>
+                <Caption57>IvyBridge-IBRS</Caption57>
+                <Name57>IvyBridge-IBRS</Name57>
+                <Caption58>IvyBridge-v1</Caption58>
+                <Name58>IvyBridge-v1</Name58>
+                <Caption59>IvyBridge-v2</Caption59>
+                <Name59>IvyBridge-v2</Name59>
+                <Caption60>KnightsMill</Caption60>
+                <Name60>KnightsMill</Name60>
+                <Caption61>KnightsMill-v1</Caption61>
+                <Name61>KnightsMill-v1</Name61>
+                <Caption62>Nehalem</Caption62>
+                <Name62>Nehalem</Name62>
+                <Caption63>Nehalem-IBRS</Caption63>
+                <Name63>Nehalem-IBRS</Name63>
+                <Caption64>Nehalem-v1</Caption64>
+                <Name64>Nehalem-v1</Name64>
+                <Caption65>Nehalem-v2</Caption65>
+                <Name65>Nehalem-v2</Name65>
+                <Caption66>Opteron_G1</Caption66>
+                <Name66>Opteron_G1</Name66>
+                <Caption67>Opteron_G1-v1</Caption67>
+                <Name67>Opteron_G1-v1</Name67>
+                <Caption68>Opteron_G2</Caption68>
+                <Name68>Opteron_G2</Name68>
+                <Caption69>Opteron_G2-v1</Caption69>
+                <Name69>Opteron_G2-v1</Name69>
+                <Caption70>Opteron_G3</Caption70>
+                <Name70>Opteron_G3</Name70>
+                <Caption71>Opteron_G3-v1</Caption71>
+                <Name71>Opteron_G3-v1</Name71>
+                <Caption72>Opteron_G4</Caption72>
+                <Name72>Opteron_G4</Name72>
+                <Caption73>Opteron_G4-v1</Caption73>
+                <Name73>Opteron_G4-v1</Name73>
+                <Caption74>Opteron_G5</Caption74>
+                <Name74>Opteron_G5</Name74>
+                <Caption75>Opteron_G5-v1</Caption75>
+                <Name75>Opteron_G5-v1</Name75>
+                <Caption76>Penryn</Caption76>
+                <Name76>Penryn</Name76>
+                <Caption77>Penryn-v1</Caption77>
+                <Name77>Penryn-v1</Name77>
+                <Caption78>SandyBridge</Caption78>
+                <Name78>SandyBridge</Name78>
+                <Caption79>SandyBridge-IBRS</Caption79>
+                <Name79>SandyBridge-IBRS</Name79>
+                <Caption80>SandyBridge-v1</Caption80>
+                <Name80>SandyBridge-v1</Name80>
+                <Caption81>SandyBridge-v2</Caption81>
+                <Name81>SandyBridge-v2</Name81>
+                <Caption82>SapphireRapids</Caption82>
+                <Name82>SapphireRapids</Name82>
+                <Caption83>SapphireRapids-v1</Caption83>
+                <Name83>SapphireRapids-v1</Name83>
+                <Caption84>Skylake-Client</Caption84>
+                <Name84>Skylake-Client</Name84>
+                <Caption85>Skylake-Client-IBRS</Caption85>
+                <Name85>Skylake-Client-IBRS</Name85>
+                <Caption86>Skylake-Client-noTSX-IBRS</Caption86>
+                <Name86>Skylake-Client-noTSX-IBRS</Name86>
+                <Caption87>Skylake-Client-v1</Caption87>
+                <Name87>Skylake-Client-v1</Name87>
+                <Caption88>Skylake-Client-v2</Caption88>
+                <Name88>Skylake-Client-v2</Name88>
+                <Caption89>Skylake-Client-v3</Caption89>
+                <Name89>Skylake-Client-v3</Name89>
+                <Caption90>Skylake-Client-v4</Caption90>
+                <Name90>Skylake-Client-v4</Name90>
+                <Caption91>Skylake-Server</Caption91>
+                <Name91>Skylake-Server</Name91>
+                <Caption92>Skylake-Server-IBRS</Caption92>
+                <Name92>Skylake-Server-IBRS</Name92>
+                <Caption93>Skylake-Server-noTSX-IBRS</Caption93>
+                <Name93>Skylake-Server-noTSX-IBRS</Name93>
+                <Caption94>Skylake-Server-v1</Caption94>
+                <Name94>Skylake-Server-v1</Name94>
+                <Caption95>Skylake-Server-v2</Caption95>
+                <Name95>Skylake-Server-v2</Name95>
+                <Caption96>Skylake-Server-v3</Caption96>
+                <Name96>Skylake-Server-v3</Name96>
+                <Caption97>Skylake-Server-v4</Caption97>
+                <Name97>Skylake-Server-v4</Name97>
+                <Caption98>Skylake-Server-v5</Caption98>
+                <Name98>Skylake-Server-v5</Name98>
+                <Caption99>Snowridge</Caption99>
+                <Name99>Snowridge</Name99>
+                <Caption100>Snowridge-v1</Caption100>
+                <Name100>Snowridge-v1</Name100>
+                <Caption101>Snowridge-v2</Caption101>
+                <Name101>Snowridge-v2</Name101>
+                <Caption102>Snowridge-v3</Caption102>
+                <Name102>Snowridge-v3</Name102>
+                <Caption103>Snowridge-v4</Caption103>
+                <Name103>Snowridge-v4</Name103>
+                <Caption104>Westmere</Caption104>
+                <Name104>Westmere</Name104>
+                <Caption105>Westmere-IBRS</Caption105>
+                <Name105>Westmere-IBRS</Name105>
+                <Caption106>Westmere-v1</Caption106>
+                <Name106>Westmere-v1</Name106>
+                <Caption107>Westmere-v2</Caption107>
+                <Name107>Westmere-v2</Name107>
+                <Caption108>Athlon</Caption108>
+                <Name108>athlon</Name108>
+                <Caption109>athlon-v1</Caption109>
+                <Name109>athlon-v1</Name109>
+                <Caption110>Core 2 Duo</Caption110>
+                <Name110>core2duo</Name110>
+                <Caption111>core2duo-v1</Caption111>
+                <Name111>core2duo-v1</Name111>
+                <Caption112>Core Duo</Caption112>
+                <Name112>coreduo</Name112>
+                <Caption113>coreduo-v1</Caption113>
+                <Name113>coreduo-v1</Name113>
+                <Caption114>kvm32</Caption114>
+                <Name114>kvm32</Name114>
+                <Caption115>kvm32-v1</Caption115>
+                <Name115>kvm32-v1</Name115>
+                <Caption116>kvm64</Caption116>
+                <Name116>kvm64</Name116>
+                <Caption117>kvm64-v1</Caption117>
+                <Name117>kvm64-v1</Name117>
+                <Caption118>Atom N270</Caption118>
+                <Name118>n270</Name118>
+                <Caption119>n270-v1</Caption119>
+                <Name119>n270-v1</Name119>
+                <Caption120>Pentium</Caption120>
+                <Name120>pentium</Name120>
+                <Caption121>pentium-v1</Caption121>
+                <Name121>pentium-v1</Name121>
+                <Caption122>Pentium 2</Caption122>
+                <Name122>pentium2</Name122>
+                <Caption123>pentium2-v1</Caption123>
+                <Name123>pentium2-v1</Name123>
+                <Caption124>Pentium 3</Caption124>
+                <Name124>pentium3</Name124>
+                <Caption125>pentium3-v1</Caption125>
+                <Name125>pentium3-v1</Name125>
+                <Caption126>Phenom</Caption126>
+                <Name126>phenom</Name126>
+                <Caption127>phenom-v1</Caption127>
+                <Name127>phenom-v1</Name127>
+                <Caption128>QEMU 32Bit</Caption128>
+                <Name128>qemu32</Name128>
+                <Caption129>qemu32-v1</Caption129>
+                <Name129>qemu32-v1</Name129>
+                <Caption130>QEMU 64Bit</Caption130>
+                <Name130>qemu64</Name130>
+                <Caption131>qemu64-v1</Caption131>
+                <Name131>qemu64-v1</Name131>
+                <Caption132>base</Caption132>
+                <Name132>base</Name132>
+                <Caption133>host</Caption133>
+                <Name133>host</Name133>
+                <Caption134>max</Caption134>
+                <Name134>max</Name134>
+                <Caption135>Recognized</Caption135>
+                <Name135>Recognized</Name135>
+                <Caption136>3dnow</Caption136>
+                <Name136>3dnow</Name136>
+                <Caption137>amd-ssbd</Caption137>
+                <Name137>amd-ssbd</Name137>
+                <Caption138>arch-lbr</Caption138>
+                <Name138>arch-lbr</Name138>
+                <Caption139>avx512-fp16</Caption139>
+                <Name139>avx512-fp16</Name139>
+                <Caption140>avx512cd</Caption140>
+                <Name140>avx512cd</Name140>
+                <Caption141>avx512vbmi2</Caption141>
+                <Name141>avx512vbmi2</Name141>
+                <Caption142>clflush</Caption142>
+                <Name142>clflush</Name142>
+                <Caption143>cx16</Caption143>
+                <Name143>cx16</Name143>
+                <Caption144>flushbyasid</Caption144>
+                <Name144>flushbyasid</Name144>
+                <Caption145>fxsr-opt</Caption145>
+                <Name145>fxsr-opt</Name145>
+                <Caption146>intel-pt-lip</Caption146>
+                <Name146>intel-pt-lip</Name146>
+                <Caption147>kvm-hint-dedicated</Caption147>
+                <Name147>kvm-hint-dedicated</Name147>
+                <Caption148>kvm-poll-control</Caption148>
+                <Name148>kvm-poll-control</Name148>
+                <Caption149>kvm-pv-tlb-flush</Caption149>
+                <Name149>kvm-pv-tlb-flush</Name149>
+                <Caption150>kvmclock-stable-bit</Caption150>
+                <Name150>kvmclock-stable-bit</Name150>
+                <Caption151>misalignsse</Caption151>
+                <Name151>misalignsse</Name151>
+                <Caption152>nodeid-msr</Caption152>
+                <Name152>nodeid-msr</Name152>
+                <Caption153>pcommit</Caption153>
+                <Name153>pcommit</Name153>
+                <Caption154>pks</Caption154>
+                <Name154>pks</Name154>
+                <Caption155>rdrand</Caption155>
+                <Name155>rdrand</Name155>
+                <Caption156>sgx-edeccssa</Caption156>
+                <Name156>sgx-edeccssa</Name156>
+                <Caption157>sgx1</Caption157>
+                <Name157>sgx1</Name157>
+                <Caption158>split-lock-detect</Caption158>
+                <Name158>split-lock-detect</Name158>
+                <Caption159>svm</Caption159>
+                <Name159>svm</Name159>
+                <Caption160>tsc-adjust</Caption160>
+                <Name160>tsc-adjust</Name160>
+                <Caption161>vaes</Caption161>
+                <Name161>vaes</Name161>
+                <Caption162>vmx-activity-shutdown</Caption162>
+                <Name162>vmx-activity-shutdown</Name162>
+                <Caption163>vmx-apicv-vid</Caption163>
+                <Name163>vmx-apicv-vid</Name163>
+                <Caption164>vmx-cr3-store-noexit</Caption164>
+                <Name164>vmx-cr3-store-noexit</Name164>
+                <Caption165>vmx-encls-exit</Caption165>
+                <Name165>vmx-encls-exit</Name165>
+                <Caption166>vmx-entry-load-efer</Caption166>
+                <Name166>vmx-entry-load-efer</Name166>
+                <Caption167>vmx-entry-load-pkrs</Caption167>
+                <Name167>vmx-entry-load-pkrs</Name167>
+                <Caption168>vmx-ept</Caption168>
+                <Name168>vmx-ept</Name168>
+                <Caption169>vmx-ept-execonly</Caption169>
+                <Name169>vmx-ept-execonly</Name169>
+                <Caption170>vmx-exit-clear-bndcfgs</Caption170>
+                <Name170>vmx-exit-clear-bndcfgs</Name170>
+                <Caption171>vmx-exit-load-pat</Caption171>
+                <Name171>vmx-exit-load-pat</Name171>
+                <Caption172>vmx-exit-nosave-debugctl</Caption172>
+                <Name172>vmx-exit-nosave-debugctl</Name172>
+                <Caption173>vmx-exit-save-preemption-timer</Caption173>
+                <Name173>vmx-exit-save-preemption-timer</Name173>
+                <Caption174>vmx-intr-exit</Caption174>
+                <Name174>vmx-intr-exit</Name174>
+                <Caption175>vmx-invept-single-context</Caption175>
+                <Name175>vmx-invept-single-context</Name175>
+                <Caption176>vmx-invlpg-exit</Caption176>
+                <Name176>vmx-invlpg-exit</Name176>
+                <Caption177>vmx-invvpid-single-addr</Caption177>
+                <Name177>vmx-invvpid-single-addr</Name177>
+                <Caption178>vmx-movdr-exit</Caption178>
+                <Name178>vmx-movdr-exit</Name178>
+                <Caption179>vmx-page-walk-4</Caption179>
+                <Name179>vmx-page-walk-4</Name179>
+                <Caption180>vmx-posted-intr</Caption180>
+                <Name180>vmx-posted-intr</Name180>
+                <Caption181>vmx-rdseed-exit</Caption181>
+                <Name181>vmx-rdseed-exit</Name181>
+                <Caption182>vmx-shadow-vmcs</Caption182>
+                <Name182>vmx-shadow-vmcs</Name182>
+                <Caption183>vmx-tsc-scaling</Caption183>
+                <Name183>vmx-tsc-scaling</Name183>
+                <Caption184>vmx-vmwrite-vmexit-fields</Caption184>
+                <Name184>vmx-vmwrite-vmexit-fields</Name184>
+                <Caption185>vmx-wbinvd-exit</Caption185>
+                <Name185>vmx-wbinvd-exit</Name185>
+                <Caption186>wbnoinvd</Caption186>
+                <Name186>wbnoinvd</Name186>
+                <Caption187>xsaveerptr</Caption187>
+                <Name187>xsaveerptr</Name187>
+            </CPU_List>
+            <Machine_List>
+                <Caption0>Default</Caption0>
+                <Name0></Name0>
+                <Caption1>microvm (i386)</Caption1>
+                <Name1>microvm</Name1>
+                <Caption2>Standard PC</Caption2>
+                <Name2>pc</Name2>
+                <Caption3>Standard PC (i440FX + PIIX, 1996) (default)</Caption3>
+                <Name3>pc-i440fx-8.0</Name3>
+                <Caption4>Standard PC (i440FX + PIIX, 1996)</Caption4>
+                <Name4>pc-i440fx-7.2</Name4>
+                <Caption5>Standard PC (i440FX + PIIX, 1996)</Caption5>
+                <Name5>pc-i440fx-7.1</Name5>
+                <Caption6>Standard PC (i440FX + PIIX, 1996)</Caption6>
+                <Name6>pc-i440fx-7.0</Name6>
+                <Caption7>Standard PC (i440FX + PIIX, 1996)</Caption7>
+                <Name7>pc-i440fx-6.2</Name7>
+                <Caption8>Standard PC (i440FX + PIIX, 1996)</Caption8>
+                <Name8>pc-i440fx-6.1</Name8>
+                <Caption9>Standard PC (i440FX + PIIX, 1996)</Caption9>
+                <Name9>pc-i440fx-6.0</Name9>
+                <Caption10>Standard PC (i440FX + PIIX, 1996)</Caption10>
+                <Name10>pc-i440fx-5.2</Name10>
+                <Caption11>Standard PC (i440FX + PIIX, 1996)</Caption11>
+                <Name11>pc-i440fx-5.1</Name11>
+                <Caption12>Standard PC (i440FX + PIIX, 1996)</Caption12>
+                <Name12>pc-i440fx-5.0</Name12>
+                <Caption13>Standard PC (i440FX + PIIX, 1996)</Caption13>
+                <Name13>pc-i440fx-4.2</Name13>
+                <Caption14>Standard PC (i440FX + PIIX, 1996)</Caption14>
+                <Name14>pc-i440fx-4.1</Name14>
+                <Caption15>Standard PC (i440FX + PIIX, 1996)</Caption15>
+                <Name15>pc-i440fx-4.0</Name15>
+                <Caption16>Standard PC (i440FX + PIIX, 1996)</Caption16>
+                <Name16>pc-i440fx-3.1</Name16>
+                <Caption17>Standard PC (i440FX + PIIX, 1996)</Caption17>
+                <Name17>pc-i440fx-3.0</Name17>
+                <Caption18>Standard PC (i440FX + PIIX, 1996)</Caption18>
+                <Name18>pc-i440fx-2.9</Name18>
+                <Caption19>Standard PC (i440FX + PIIX, 1996)</Caption19>
+                <Name19>pc-i440fx-2.8</Name19>
+                <Caption20>Standard PC (i440FX + PIIX, 1996)</Caption20>
+                <Name20>pc-i440fx-2.7</Name20>
+                <Caption21>Standard PC (i440FX + PIIX, 1996)</Caption21>
+                <Name21>pc-i440fx-2.6</Name21>
+                <Caption22>Standard PC (i440FX + PIIX, 1996)</Caption22>
+                <Name22>pc-i440fx-2.5</Name22>
+                <Caption23>Standard PC (i440FX + PIIX, 1996)</Caption23>
+                <Name23>pc-i440fx-2.4</Name23>
+                <Caption24>Standard PC (i440FX + PIIX, 1996)</Caption24>
+                <Name24>pc-i440fx-2.3</Name24>
+                <Caption25>Standard PC (i440FX + PIIX, 1996)</Caption25>
+                <Name25>pc-i440fx-2.2</Name25>
+                <Caption26>Standard PC (i440FX + PIIX, 1996)</Caption26>
+                <Name26>pc-i440fx-2.12</Name26>
+                <Caption27>Standard PC (i440FX + PIIX, 1996)</Caption27>
+                <Name27>pc-i440fx-2.11</Name27>
+                <Caption28>Standard PC (i440FX + PIIX, 1996)</Caption28>
+                <Name28>pc-i440fx-2.10</Name28>
+                <Caption29>Standard PC (i440FX + PIIX, 1996)</Caption29>
+                <Name29>pc-i440fx-2.1</Name29>
+                <Caption30>Standard PC (i440FX + PIIX, 1996)</Caption30>
+                <Name30>pc-i440fx-2.0</Name30>
+                <Caption31>Standard PC (i440FX + PIIX, 1996) (deprecated)</Caption31>
+                <Name31>pc-i440fx-1.7</Name31>
+                <Caption32>Standard PC (i440FX + PIIX, 1996) (deprecated)</Caption32>
+                <Name32>pc-i440fx-1.6</Name32>
+                <Caption33>Standard PC (i440FX + PIIX, 1996) (deprecated)</Caption33>
+                <Name33>pc-i440fx-1.5</Name33>
+                <Caption34>Standard PC (i440FX + PIIX, 1996) (deprecated)</Caption34>
+                <Name34>pc-i440fx-1.4</Name34>
+                <Caption35>Standard PC (Q35 + ICH9, 2009) (alias of pc-q35-8.0)</Caption35>
+                <Name35>q35</Name35>
+                <Caption36>Standard PC (Q35 + ICH9, 2009)</Caption36>
+                <Name36>pc-q35-8.0</Name36>
+                <Caption37>Standard PC (Q35 + ICH9, 2009)</Caption37>
+                <Name37>pc-q35-7.2</Name37>
+                <Caption38>Standard PC (Q35 + ICH9, 2009)</Caption38>
+                <Name38>pc-q35-7.1</Name38>
+                <Caption39>Standard PC (Q35 + ICH9, 2009)</Caption39>
+                <Name39>pc-q35-7.0</Name39>
+                <Caption40>Standard PC (Q35 + ICH9, 2009)</Caption40>
+                <Name40>pc-q35-6.2</Name40>
+                <Caption41>Standard PC (Q35 + ICH9, 2009)</Caption41>
+                <Name41>pc-q35-6.1</Name41>
+                <Caption42>Standard PC (Q35 + ICH9, 2009)</Caption42>
+                <Name42>pc-q35-6.0</Name42>
+                <Caption43>Standard PC (Q35 + ICH9, 2009)</Caption43>
+                <Name43>pc-q35-5.2</Name43>
+                <Caption44>Standard PC (Q35 + ICH9, 2009)</Caption44>
+                <Name44>pc-q35-5.1</Name44>
+                <Caption45>Standard PC (Q35 + ICH9, 2009)</Caption45>
+                <Name45>pc-q35-5.0</Name45>
+                <Caption46>Standard PC (Q35 + ICH9, 2009)</Caption46>
+                <Name46>pc-q35-4.2</Name46>
+                <Caption47>Standard PC (Q35 + ICH9, 2009)</Caption47>
+                <Name47>pc-q35-4.1</Name47>
+                <Caption48>Standard PC (Q35 + ICH9, 2009)</Caption48>
+                <Name48>pc-q35-4.0.1</Name48>
+                <Caption49>Standard PC (Q35 + ICH9, 2009)</Caption49>
+                <Name49>pc-q35-4.0</Name49>
+                <Caption50>Standard PC (Q35 + ICH9, 2009)</Caption50>
+                <Name50>pc-q35-3.1</Name50>
+                <Caption51>Standard PC (Q35 + ICH9, 2009)</Caption51>
+                <Name51>pc-q35-3.0</Name51>
+                <Caption52>Standard PC (Q35 + ICH9, 2009)</Caption52>
+                <Name52>pc-q35-2.9</Name52>
+                <Caption53>Standard PC (Q35 + ICH9, 2009)</Caption53>
+                <Name53>pc-q35-2.8</Name53>
+                <Caption54>Standard PC (Q35 + ICH9, 2009)</Caption54>
+                <Name54>pc-q35-2.7</Name54>
+                <Caption55>Standard PC (Q35 + ICH9, 2009)</Caption55>
+                <Name55>pc-q35-2.6</Name55>
+                <Caption56>Standard PC (Q35 + ICH9, 2009)</Caption56>
+                <Name56>pc-q35-2.5</Name56>
+                <Caption57>Standard PC (Q35 + ICH9, 2009)</Caption57>
+                <Name57>pc-q35-2.4</Name57>
+                <Caption58>Standard PC (Q35 + ICH9, 2009)</Caption58>
+                <Name58>pc-q35-2.12</Name58>
+                <Caption59>Standard PC (Q35 + ICH9, 2009)</Caption59>
+                <Name59>pc-q35-2.11</Name59>
+                <Caption60>Standard PC (Q35 + ICH9, 2009)</Caption60>
+                <Name60>pc-q35-2.10</Name60>
+                <Caption61>ISA-only PC</Caption61>
+                <Name61>isapc</Name61>
+                <Caption62>empty machine</Caption62>
+                <Name62>none</Name62>
+                <Caption63>Experimental remote machine</Caption63>
+                <Name63>x-remote</Name63>
+            </Machine_List>
+            <Network_Card_List>
+                <Caption0>Default</Caption0>
+                <Name0></Name0>
+                <Caption1>NE2000 PCI</Caption1>
+                <Name1>ne2k_pci</Name1>
+                <Caption2>NE2000 ISA</Caption2>
+                <Name2>ne2k_isa</Name2>
+                <Caption3>i82551</Caption3>
+                <Name3>i82551</Name3>
+                <Caption4>i82557B</Caption4>
+                <Name4>i82557b</Name4>
+                <Caption5>i82559ER</Caption5>
+                <Name5>i82559er</Name5>
+                <Caption6>PCnet32 PCI</Caption6>
+                <Name6>pcnet</Name6>
+                <Caption7>RTL8139</Caption7>
+                <Name7>rtl8139</Name7>
+                <Caption8>e1000</Caption8>
+                <Name8>e1000</Name8>
+                <Caption9>virtio</Caption9>
+                <Name9>virtio</Name9>
+            </Network_Card_List>
+            <Audio_Card_List>
+                <sb16>no</sb16>
+                <es1370>no</es1370>
+                <Adlib>no</Adlib>
+                <PC_Speaker>no</PC_Speaker>
+                <GUS>no</GUS>
+                <AC97>no</AC97>
+                <HDA>no</HDA>
+                <cs4231a>no</cs4231a>
+            </Audio_Card_List>
+            <Video_Card_List>
+                <Caption0>Default</Caption0>
+                <Name0></Name0>
+                <Caption1>StdVGA (VESA 2.0)</Caption1>
+                <Name1>std</Name1>
+                <Caption2>Cirrus CLGD 5446</Caption2>
+                <Name2>cirrus</Name2>
+                <Caption3>VMWare Video Card</Caption3>
+                <Name3>vmware</Name3>
+                <Caption4>qxl</Caption4>
+                <Name4>qxl</Name4>
+                <Caption5>xenfb</Caption5>
+                <Name5>xenfb</Name5>
+                <Caption6>tcx</Caption6>
+                <Name6>tcx</Name6>
+                <Caption7>cg3</Caption7>
+                <Name7>cg3</Name7>
+                <Caption8>virtio</Caption8>
+                <Name8>virtio</Name8>
+                <Caption9>None Video Card</Caption9>
+                <Name9>none</Name9>
+            </Video_Card_List>
+            <SMP_Count>255</SMP_Count>
+            <SMP_Cores>yes</SMP_Cores>
+            <SMP_Threads>yes</SMP_Threads>
+            <SMP_Sockets>yes</SMP_Sockets>
+            <SMP_MaxCPUs>yes</SMP_MaxCPUs>
+            <Device>yes</Device>
+            <Device_USB_EHCI>yes</Device_USB_EHCI>
+            <Drive>yes</Drive>
+            <Drive_File>yes</Drive_File>
+            <Drive_If>yes</Drive_If>
+            <Drive_Bus_Unit>yes</Drive_Bus_Unit>
+            <Drive_Index>yes</Drive_Index>
+            <Drive_Media>yes</Drive_Media>
+            <Drive_Cyls_Heads_Secs_Trans>no</Drive_Cyls_Heads_Secs_Trans>
+            <Drive_Snapshot>yes</Drive_Snapshot>
+            <Drive_Cache>yes</Drive_Cache>
+            <Drive_AIO>yes</Drive_AIO>
+            <Drive_Format>yes</Drive_Format>
+            <Drive_Serial>yes</Drive_Serial>
+            <Drive_ADDR>yes</Drive_ADDR>
+            <Drive_Boot>yes</Drive_Boot>
+            <Boot_Order>yes</Boot_Order>
+            <Initial_Graphic_Mode>no</Initial_Graphic_Mode>
+            <No_FB_Boot_Check>yes</No_FB_Boot_Check>
+            <Win2K_Hack>yes</Win2K_Hack>
+            <Kernel_KQEMU>no</Kernel_KQEMU>
+            <No_ACPI>yes</No_ACPI>
+            <KVM>no</KVM>
+            <RTC_TD_Hack>yes</RTC_TD_Hack>
+            <MTDBlock>yes</MTDBlock>
+            <SD>yes</SD>
+            <PFlash>yes</PFlash>
+            <Name>yes</Name>
+            <Curses>no</Curses>
+            <No_Frame>no</No_Frame>
+            <Alt_Grab>no</Alt_Grab>
+            <No_Quit>no</No_Quit>
+            <SDL>no</SDL>
+            <Portrait>yes</Portrait>
+            <No_Shutdown>yes</No_Shutdown>
+            <Startdate>yes</Startdate>
+            <Show_Cursor>no</Show_Cursor>
+            <Bootp>no</Bootp>
+            <Net_type_vde>yes</Net_type_vde>
+            <Net_type_dump>no</Net_type_dump>
+            <Net_name>yes</Net_name>
+            <Net_addr>yes</Net_addr>
+            <Net_vectors>yes</Net_vectors>
+            <Net_net>yes</Net_net>
+            <Net_host>yes</Net_host>
+            <Net_restrict>yes</Net_restrict>
+            <Net_dhcpstart>yes</Net_dhcpstart>
+            <Net_dns>yes</Net_dns>
+            <Net_tftp>yes</Net_tftp>
+            <Net_bootfile>yes</Net_bootfile>
+            <Net_smb>yes</Net_smb>
+            <Net_hostfwd>yes</Net_hostfwd>
+            <Net_guestfwd>yes</Net_guestfwd>
+            <Net_ifname>yes</Net_ifname>
+            <Net_bridge>yes</Net_bridge>
+            <Net_script>yes</Net_script>
+            <Net_downscript>yes</Net_downscript>
+            <Net_helper>yes</Net_helper>
+            <Net_sndbuf>yes</Net_sndbuf>
+            <Net_vnet_hdr>yes</Net_vnet_hdr>
+            <Net_vhost>yes</Net_vhost>
+            <Net_vhostfd>yes</Net_vhostfd>
+            <Net_listen>yes</Net_listen>
+            <Net_connect>yes</Net_connect>
+            <Net_mcast>yes</Net_mcast>
+            <Net_sock>yes</Net_sock>
+            <Net_port>yes</Net_port>
+            <Net_group>yes</Net_group>
+            <Net_mode>yes</Net_mode>
+            <Net_file>yes</Net_file>
+            <Net_len>no</Net_len>
+            <Enable_KVM>yes</Enable_KVM>
+            <No_KVM>no</No_KVM>
+            <No_KVM_IRQChip>no</No_KVM_IRQChip>
+            <No_KVM_Pit>no</No_KVM_Pit>
+            <No_KVM_Pit_Reinjection>no</No_KVM_Pit_Reinjection>
+            <Enable_Nesting>no</Enable_Nesting>
+            <KVM_Shadow_Memory>no</KVM_Shadow_Memory>
+            <SPICE>yes</SPICE>
+            <QXL>no</QXL>
+            <TFTP>yes</TFTP>
+            <SMB>yes</SMB>
+            <Std_VGA>no</Std_VGA>
+        </qemu-system-x86_64>
+    </Emulator>
+</AQEMU_Emulator>

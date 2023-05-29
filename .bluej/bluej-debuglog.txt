@@ -1,0 +1,36 @@
+BlueJ run started: Fri May 26 10:30:10 IST 2023
+BlueJ version 5.1.0
+Java version 17.0.7
+JavaFX version 17.0.7-internal+0-2023-04-20-193318
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.7+7 (Oracle Corporation)
+Running on: Linux 6.3.3-arch1-1 (amd64)
+Java Home: /usr/lib/jvm/java-17-openjdk
+----
+Detected language "english" based on iso639-2 code "eng"
+====
+
+====
+BlueJ run started: Sat May 27 16:49:47 IST 2023
+BlueJ version 5.1.0
+Java version 17.0.7
+JavaFX version 17.0.7-internal+0-2023-04-20-193318
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.7+7 (Oracle Corporation)
+Running on: Linux 6.3.4-arch1-1 (amd64)
+Java Home: /usr/lib/jvm/java-17-openjdk
+----
+====
+
+====
+BlueJ run started: Sat May 27 16:50:16 IST 2023
+BlueJ version 5.1.0
+Java version 17.0.7
+JavaFX version 17.0.7-internal+0-2023-04-20-193318
+Virtual machine: OpenJDK 64-Bit Server VM 17.0.7+7 (Oracle Corporation)
+Running on: Linux 6.3.4-arch1-1 (amd64)
+Java Home: /usr/lib/jvm/java-17-openjdk
+----
+Opening project: /home/reejit/Desktop/BlueJ/BlueJ
+1685186435797: Listening for JDWP connection on address: 127.0.0.1:41595
+Connected to debug VM via dt_socket transport...
+Communication with debug VM fully established.
+java.io.FileNotFoundException while reading import cache: /home/reejit/.bluej/import-cache.xml (No such file or directory)
